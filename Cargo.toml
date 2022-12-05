@@ -1,0 +1,22 @@
+[package]
+name = "yclass-memflow"
+version = "0.1.0"
+authors = ["Dan Killinger <git@dank.anonaddy.com>"]
+edition = "2021"
+keywords = ["memflow", "yclass"]
+repository = "https://github.com/dankope/yclass-memflow/"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+memflow = { version = "^0.2.0-beta", features = ["plugins"] }
+serde = "1.0"
+toml = "0.5"
+dirs = "4.0"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+opt-level = 3
