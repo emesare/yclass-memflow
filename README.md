@@ -22,8 +22,6 @@ scan_path = "./my_memflow_plugins/"
 conn = "kvm"
 # Arguments to pass to the connector.
 conn_args = "foo foo"
-# OS type (i.e. "win32", "native")
-os = "win32"
 # Arguments to pass to the os.
 os_args = "blah blah"
 ```
