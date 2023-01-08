@@ -1,6 +1,6 @@
 # yclass-memflow
 
-[Memflow] plugin for [YClass].
+[Memflow] plugin for [YClass]. Also see: [ko1N/yclass-memflow](https://github.com/ko1N/yclass-memflow).
 
 ## How to use
 
